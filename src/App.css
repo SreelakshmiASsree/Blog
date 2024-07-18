@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+@media (min-width: 601px) {
+  .w3-col.m4, .w3-third {
+      width: 33.33333%;
+      display: flex;
+      justify-content: flex-start;
+  }
+}
